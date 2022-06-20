@@ -1,6 +1,12 @@
 ﻿  DllMain.cpp
+  buffer.c
+  hde32.c
+  hde64.c
+  hook.c
+  trampoline.c
   Generating code
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 190 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  186 of 190 functions (97.9%) were compiled, the rest were copied from previous compilation.
+    24 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  BradoLine.vcxproj -> D:\BradoLine\BradoLine\Release\svpure.dll
+  BradoLine.vcxproj -> D:\sv_pure-bypass\Release\svpure.dll
